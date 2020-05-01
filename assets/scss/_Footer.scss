@@ -1,0 +1,52 @@
+footer{
+    padding: 100px 0;
+    background: $footerBG;
+    .logo{
+        width: 100px;
+        height: 100%;
+        position: relative;
+        text-align: center;
+        left: 50%;
+        right: -50%;
+        margin-bottom: 50px;
+        img{
+           width: 100%;
+        }
+    }
+    .menu{
+        margin-bottom: 100px;
+        text-align: center;
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 0 20px ;
+            font-size: 1.3rem;
+            transition: all 1s ease-in-out;
+            &:hover{
+                color: $red;
+            }
+        }
+    }
+    .social{
+        margin-bottom: 50px;
+        text-align: center;
+        .fab{
+            color: white;
+            padding: 0 20px;
+            font-size: 1em;
+            transition: all 1s ease-in-out;
+            &:hover{
+                color: $red;
+            }
+        }
+    }
+    .copy{
+        text-align: center;
+        p{
+            color: $paraColor;
+            font-size: .9rem;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+    }
+}

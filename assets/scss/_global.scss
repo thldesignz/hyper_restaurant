@@ -1,0 +1,40 @@
+body{
+    color: $black;
+}
+
+h5{
+    color: $titleColor;
+    font-size: 0.9rem;
+    margin: 0.5rem 0 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+h2{
+    font-size: 2rem;
+    font-family: $displayfont;
+    text-transform: capitalize;
+    color: $black;
+}
+p{
+    font-size: 0.9rem;
+    color: $paraColor;
+    line-height: 2;
+    margin: 0.5rem 0 3rem;
+    font-weight: 300;
+}
+
+a{
+    transition: all .5s ease-in-out;
+    &:hover{
+        color: $green;
+    }
+
+}
+
+strong{
+    font-weight: 600;
+}
+
+em{
+    font-style: italic;
+}

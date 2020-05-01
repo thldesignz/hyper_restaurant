@@ -1,0 +1,30 @@
+@import "reset";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans:400,700|Vidaloka&display=swap');
+@import "variables";
+@import "grid";
+@import "global";
+@import "Header";
+@import "TopImg";
+@import "OurStory";
+@import "SpecialMenu";
+@import "RandomQuote";
+@import "Reviews";
+@import "Contact";
+@import "Footer";
+
+//font-family: 'Vidaloka', serif;
+//font-family: 'PT Sans', sans-serif;
+//font-family: 'Open Sans Condensed', sans-serif;
+
+$textFont: 'Open Sans Condensed', sans-serif;
+$displayfont: 'Vidaloka', serif;
+
+body {
+  font-family: $textFont;
+  width: 100%;
+  height: 100%;
+}
+
+
+

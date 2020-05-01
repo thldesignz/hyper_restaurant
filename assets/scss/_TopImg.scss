@@ -1,0 +1,56 @@
+#TopImg{
+    position: relative;
+    background: black;
+    height: 500px;
+//     background: url(https://metropolitan-market.com/_photos/MM/prime-rib-how-to-cook-an-american-classic-recipe-metropolitan-market.jpg?2019-12-01-18-13-38
+//     ) no-repeat center center; 
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0px, rgb(0, 0, 0) 100%);
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0px, rgb(0, 0, 0) 100%), url("https://metropolitan-market.com/_photos/MM/prime-rib-how-to-cook-an-american-classic-recipe-metropolitan-market.jpg?2019-12-01-18-13-38");
+    background-position: center;
+    background-size: cover;
+    
+
+    .title{
+        padding: 200px 0 80px;
+        text-align: right;
+        h1{
+            font-family: $displayfont;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 300;
+            font-size: 4rem;
+        }
+    
+        h5{
+            text-transform: uppercase;
+            color: white;
+            font-weight: 300;
+        }
+     }
+     .contact-info{
+        //  position: absolute;
+        //  bottom: 0;
+        //  right: 0;
+         text-align: right;
+         color: white;
+         font-size: .9rem;
+         line-height: 1.5rem;
+         strong{
+             font-weight: 700;
+         }
+         h2{
+             font-size: 2rem;
+             margin-bottom: 20px;
+             color: white;
+         }
+         .booking{
+             margin-bottom: 8px;
+             color: $paraColor;
+         }
+     }
+    }

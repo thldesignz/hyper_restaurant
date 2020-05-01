@@ -1,0 +1,41 @@
+#OurStory{
+    padding: 100px 0;
+    h5{
+        text-align: center;
+    }
+    .quote{
+        color: $paraColor;
+        margin: 0.5rem 0 3rem;
+        strong{
+            color: $black;
+            font-weight: 700;
+        }
+    }
+    .res-btn{
+     padding: 20px 40px;
+     text-decoration: none;
+     min-width: 200px;
+     display: inline-block;
+     border: 1px solid $black;
+     text-align: center;
+     color: #000;
+     text-transform: uppercase;
+     font-family: $displayfont;
+     transition: all 0.5s ease-in-out;
+     margin-bottom: 20px;
+     &:hover{
+         background-color: $red;
+         color: white;
+     }
+
+    }
+    .video-img{
+        max-width: 500px;
+        height: 600px;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0px, rgb(0, 0, 0) 100%); 
+        background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0px, rgb(0, 0, 0) 100%), url("https://static01.nyt.com/images/2019/05/22/dining/16Eric1/merlin_154816902_3392dddb-fc49-445f-a736-59164056fd78-jumbo.jpg");
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+}

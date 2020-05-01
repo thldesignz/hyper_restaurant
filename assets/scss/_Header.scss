@@ -1,0 +1,28 @@
+header{
+    position: absolute;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    z-index: 20;
+
+    .logo{
+        display: inline-block;
+        width: 80px;
+        height: 100%;
+       // padding: 20px 10px;
+       img{
+           width: 100%;
+       }
+    }
+    nav{
+        display: inline-block;
+        float: right;
+        text-align: right;
+        a{
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            padding: 0 10px;
+        }
+    }
+}
